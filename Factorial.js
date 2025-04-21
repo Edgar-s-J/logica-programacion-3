@@ -7,9 +7,7 @@ function calcularFactorial() {
       for (let i = 1; i <= valor; i++) {
         factorial *= i;
       }
-
       document.getElementById("resultado").textContent = `Resultado: el factorial del número ${valor} es: ${factorial}`;
-      console.log(`El factorial de ${valor} es: ${factorial}`);
     } else {
       alert("Por favor, ingresa un número válido (entero y positivo).");
       input.value = "";
